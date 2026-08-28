@@ -16,8 +16,10 @@
 2. Extract the keypair generator and run the exe file in the folder. After that, open `PublicKeyBlob.txt` and copy the contents.
 3. Go inside your hex editor again and do a normal text search for `BGIAA`. After that, select the whole BGIAA string that comes up and replace it with the one from the file (just do ctrl v). After that, you can save the file.
    ![search example](https://files.catbox.moe/z0ycad.png)
-   ![BGIAA example](https://files.catbox.moe/re5ask.png)
-   ![replaced BGIAA](https://files.catbox.moe/re5ask.png)
+   
+   ![bgiaa example](https://files.catbox.moe/re5ask.png)
+   
+   ![replaced bgiaa](https://files.catbox.moe/re5ask.png)
 4. Open up `AppSettings.xml` in the client folder and replace `roblox.com` with your 10-letter domain. (keep www)
 5. Create a batch file in the same folder and put `RobloxPlayerBeta.exe -a "http://www.yourdomain.tld/" -j "http://www.yourdomain.tld/join?placeId=1818&username=usernamehere" -t ""` inside. This will be used to start the client.
 
