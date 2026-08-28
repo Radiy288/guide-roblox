@@ -31,6 +31,7 @@
 2. Do a normal text search for `versioncompatibility`, after that in the left pane zero it out as [in this video](https://files.catbox.moe/yuz866.mp4). After that, you can save the file and close the hex editor.
 3. Open up `AppSettings.xml` in the RCC folder and replace `roblox.com` with your 10-letter domain. (keep www)
 4. Open x32dbg from `\release\x32` in the downloaded zip file (NOT x64dbg!) and open `RCCService.exe`. After that, right click in the middle of the window, and click on `Search for > All modules > String references`.
+
    ![x32dbg search](https://files.catbox.moe/o5k0vh.png)
 5. After that, wait for the progress bar at the bottom to complete and after that click on the text box and type in `sysstats`.
 6. Follow the steps in [this video](https://files.catbox.moe/yuz866.mp4). (for editing the jne, je, push etc press space after you have selected it in the window)
