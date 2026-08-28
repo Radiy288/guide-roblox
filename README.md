@@ -55,4 +55,4 @@
 - Use your batch file on the RCC to start it up.
 - Use your batch file on the client to start it up.
 
-DM me on Discord if anything does not work and I'll help fix.
+~~DM me on Discord if anything does not work and I'll help fix.~~
