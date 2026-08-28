@@ -12,6 +12,7 @@
 # Client
 
 1. Open up your hex editor on `RobloxPlayerBeta.exe`, go to text replace, search for `roblox.com` and replace all with your 10-letter domain.
+
    ![replace example](https://files.catbox.moe/wans4c.png)
 2. Extract the keypair generator and run the exe file in the folder. After that, open `PublicKeyBlob.txt` and copy the contents.
 3. Go inside your hex editor again and do a normal text search for `BGIAA`. After that, select the whole BGIAA string that comes up and replace it with the one from the file (just do ctrl v). After that, you can save the file.
